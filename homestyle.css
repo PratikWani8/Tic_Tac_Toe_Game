@@ -21,6 +21,9 @@
     border: 10px solid #7cebfc;
     box-shadow: 0 0 50px rgb(124,235,252);
     padding: 30px 30px 30px;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 0.5s;
 }
 
 .mode{
@@ -46,6 +49,9 @@ a {
     font-weight: 600;
     margin-top: 100px;
     padding: 40px;
+    opacity: 0;
+    animation: slideRight 1.5s ease forwards;
+    animation-delay: 1.5s;
 }
 
 .Bot  {
@@ -60,4 +66,41 @@ a {
     margin-top: 100px;
     padding: 40px;
     width: 250px;
+    opacity: 0;
+    animation: slideLeft 1.5s ease forwards;
+    animation-delay: 1.5s;
 }
+
+@keyframes slideBottom {
+     0% {
+         transform: translateY(-100px);
+         opacity:0;
+     }
+     100% {
+         transform: translateY(0px);
+         opacity:1;
+     }
+        }
+
+@keyframes slideLeft {
+     0% {
+         transform: translateX(300px);
+         opacity:0;
+     }
+     100% {
+         transform: translateX(0px);
+         opacity:1;
+     }
+        }
+
+@keyframes slideRight {
+     0% {
+         transform: translateX(-300px);
+         opacity:0;
+     }
+     100% {
+         transform: translateX(0px);
+         opacity:1;
+     }
+        }        
+        
