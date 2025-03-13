@@ -1,7 +1,7 @@
 # Tic_Tac_Toe_Game
 
 The Project is Tic Tac Toe Game. <br>
-The Theme of the Project is Dark Blue. <br>
+The Theme of the Project is Neon Dark Blue. <br>
 
 The Project Contains Two Modes :- <br>
 
