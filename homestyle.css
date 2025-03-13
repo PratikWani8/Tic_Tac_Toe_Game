@@ -38,7 +38,7 @@ a {
     font-size: 100px;
 }
 
-.Local  {
+#Local  {
     display: inline-block;
     align-items: center;
     justify-content: center;
@@ -54,7 +54,7 @@ a {
     animation-delay: 1.5s;
 }
 
-.Bot  {
+#Bot  {
     display: flex;
     align-items: center;
     justify-content: center;
