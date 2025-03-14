@@ -136,6 +136,12 @@ restartBtn.addEventListener('click', () => {
         cell.style.background = ''
     })
     isPauseGame = false
-    isGameStart = false
+    isGameStart = false 
     titleHeader.textContent = 'Choose'
 })
+
+// Background Music 
+let bgm = new Audio ("./Elevator-music-bgm.mp3");
+window.onload = function () {
+   bgm.play();
+}
