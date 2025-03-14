@@ -117,3 +117,9 @@ restartBtn.addEventListener('click', () => {
     isGameStart = false
     titleHeader.textContent = 'Choose'
 })
+
+// Background Music 
+let bgm = new Audio ("./Elevator-music-bgm.mp3");
+window.onload = function () {
+   bgm.play();
+}
