@@ -27,6 +27,11 @@
     animation-delay: 0.5s;
 }
 
+.sub-header {
+  animation: glow-animation 1s infinite alternate;
+  animation-delay: 0.5s;
+}
+
 .mode{
     color: white;
     font-size: 60px;
@@ -104,4 +109,12 @@ a {
          opacity:1;
      }
         }        
-        
+
+@keyframes glow-animation {
+    0% {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #7cebfc, 0 0 20px #7cebfc, 0 0 25px #7cebfc;
+    }
+    100% {
+        text-shadow: 0 0 30px #fff, 0 0 40px #7cebfc, 0 0 50px #7cebfc, 0 0 60px #7cebfc, 0 0 70px #7cebfc;
+    }
+       }        
